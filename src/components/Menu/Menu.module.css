@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=JetBrains+Mono&display=swap');
+
+.menuBar {
+    width: 782px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    background: white;
+
+    border-radius: 80px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.selector {
+    position: absolute;
+    width: 33.33%;
+    background: rgba(188, 244, 245, 0.33);
+    border-radius: 85px;
+    height: 100%;
+    transition: 0.5s ease;
+    /* 200% end and 100% middle */
+}
+
+.selector.center {
+    transform: translateX(100%);
+}
+
+.selector.right {
+    transform: translateX(200%);
+}
+
+.menuItem:hover {
+    cursor: pointer;
+}
+
+.menuItemTitle {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+}
