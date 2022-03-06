@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Roboto:wght@500&family=Work+Sans:wght@500&display=swap');
+
+.profileDescription {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.profileDescription > h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.profileDescription > * {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+    transition: 0.5s ease;
+}
+
+.profileDescription > h3 {
+    margin: 16px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.profileDescription > a {
+    margin-top: 37px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #9381FF;
+    border-radius: 500px;
+    width: 175px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+
+    transition: 0.2s ease;
+}
+
+.profileDescription > a:hover {
+    background: rgba(147, 129, 255, 0.81);
+}
+
+.profileDescription > p {
+    width: 450px;
+    display: block;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+
+    margin-top: 30px;
+}
+
+.closeRight {
+    right: 25px;
+    opacity: 0;
+}
+
+.openRight {
+    right: 0;
+    opacity: 1;
+}
+
+.closeBottom {
+    top: 5px;
+    opacity: 0;
+}
+
+.openBottom {
+    top: 0;
+    opacity: 1;
+}
