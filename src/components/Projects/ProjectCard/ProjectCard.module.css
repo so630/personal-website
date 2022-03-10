@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.projectCard {
+    background: #9381FF;
+    border-radius: 22px;
+    width: 510px;
+    height: 180px;
+    padding-top: 1px;
+
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+
+    display: inline-block;
+
+    transition: 0.5s ease;
+    position: relative;
+
+    margin: 24px 32px;
+}
+
+.container {
+    margin: 30px 200px;
+    text-align: center;
+}
+
+.projectCard > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 24px;
+}
+
+.projectCard > .link {
+    background: #D6CFFF;
+    border-radius: 40px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+    width: 206px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;font-weight: 500;
+
+    transition: 0.5s ease;
+}
+
+.projectCard > .link:hover {
+    background: rgba(214, 207, 255, 0.66);
+}
+
+.projectCard > .source {
+    background: #AA9CFF;
+    border-radius: 25px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+    width: 206px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.projectCard> .source:hover {
+    background: rgba(170, 156, 255, 0.64);
+}
+
+.closed {
+    bottom: 20px;
+    opacity: 0;
+}
+
+.open {
+    bottom: 0;
+    opacity: 1;
+}
