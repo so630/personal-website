@@ -5,6 +5,10 @@ export default function ProjectCard({title, link, source, id}) {
 
     const ref = useRef(null);
 
+    useEffect(() => {
+        ref.current.classList.add(styles.open);
+    })
+
     return (
         <div className={`${styles.projectCard} ${styles.closed}`} id={"project-" + id} ref={ref}>
             <h1>{title}</h1>

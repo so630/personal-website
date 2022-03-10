@@ -34,9 +34,6 @@ export default function Projects() {
     return (
         <div className={styles.container}>
             {projects.map((project, index) => {
-                setTimeout(() => {
-                    document.getElementById('project-' + index).classList.add(styles.open);
-                }, number);
                 return <ProjectCard title={project.title} link={project.link} source={project.github} id={index} key={index}/>;
             })}
         </div>

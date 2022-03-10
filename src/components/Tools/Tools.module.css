@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.toolCard {
+    background: rgba(255, 255, 255, 0.41);
+    width: 343px;
+    height: 300px;
+    border-radius: 23px;
+
+    display: inline-block;
+    margin: 60px;
+
+    transition: 0.5s ease;
+    position: relative;
+}
+
+.closed {
+    bottom: 20px;
+    opacity: 0;
+}
+
+.open {
+    bottom: 0;
+    opacity: 1;
+}
+
+.toolCard > img {
+    height: 150px;
+    margin-top: 37px;
+}
+
+.toolCard > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.container {
+    margin: 30px 200px;
+    text-align: center;
+}
