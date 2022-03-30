@@ -45,3 +45,9 @@
     margin: 30px 100px;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    .toolCard {
+        zoom: 60%;
+    }
+}

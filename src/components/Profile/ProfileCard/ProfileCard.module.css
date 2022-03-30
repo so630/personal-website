@@ -81,3 +81,16 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+
+@media (max-width: 1043px) {
+    .profileCard {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profileSection {
+        padding-left: 0;
+        width: auto;
+    }
+}
